@@ -1,2 +1,2 @@
-# 01_FoolProof-monitoring-system_ducksan
-Fool Proof monitoring system for ducksanjungmil
+# 01_FoolProof-monitoring-system_DUCKSAN
+Fool Proof monitoring system for DuckSanJungMil
