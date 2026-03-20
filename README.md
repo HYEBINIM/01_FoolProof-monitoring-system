@@ -1,2 +1,5 @@
-# 01_FoolProof-monitoring-system_DUCKSAN
-Fool Proof monitoring system for DuckSanJungMil
+# 01_FoolProof-monitoring-system
+Fool Proof monitoring system
+-Daeoh
+-DuckSanJungMil
+-MSI
