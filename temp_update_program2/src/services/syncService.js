@@ -53,20 +53,6 @@ class SyncService {
         logger.info(`타겟 DB에 ${tableName} 테이블 생성 완료`);
       }
 
-      // dr1, er1, result1 테이블은 device_id 컬럼이 필요 없음
-      // dr1, er1: id가 호기 번호
-      // result1: mc_code가 호기 번호
-      const noDeviceIdTables = [...this.machineIdTables, ...this.mcCodeTables];
-      if (!noDeviceIdTables.includes(tableName)) {
-        // 타겟 DB 테이블에 device_id 컬럼이 있는지 확인하고 없으면 추가
-        const hasDeviceId = await this.targetDb.hasDeviceIdColumn(tableName);
-        if (!hasDeviceId) {
-          logger.info(`타겟 DB ${tableName} 테이블에 device_id 컬럼을 추가합니다...`);
-          await this.targetDb.addDeviceIdColumn(tableName);
-          await this.targetDb.addDeviceIdIndex(tableName);
-        }
-      }
-
       return true;
 
     } catch (error) {
