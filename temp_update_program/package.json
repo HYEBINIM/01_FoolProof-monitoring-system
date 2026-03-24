@@ -1,0 +1,38 @@
+{
+  "name": "mariadb-realtime-sync",
+  "version": "1.0.0",
+  "description": "MariaDB 실시간 데이터 동기화 시스템",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "pkg . --targets node18-win-x64 --output dist/foolproof-sync.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+      ".env.example",
+      "node_modules/mysql2/**/*"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "mariadb",
+    "mysql",
+    "sync",
+    "realtime",
+    "database"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "pkg": "^5.8.1"
+  }
+}
