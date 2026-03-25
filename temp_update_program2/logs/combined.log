@@ -888,3 +888,243 @@
 {"level":"info","message":"실시간 동기화 중지","service":"db-sync-service","timestamp":"2026-03-24 17:34:40"}
 {"level":"info","message":"소스 데이터베이스 연결 종료","service":"db-sync-service","timestamp":"2026-03-24 17:34:40"}
 {"level":"info","message":"타겟 데이터베이스 연결 종료","service":"db-sync-service","timestamp":"2026-03-24 17:34:40"}
+{"level":"info","message":"=========================================","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"MariaDB 실시간 데이터 동기화 시스템 시작","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=========================================","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"소스 데이터베이스 연결 중...","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"소스 데이터베이스 연결 성공: 127.0.0.1:3306/dataset","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 데이터베이스 연결 중...","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 데이터베이스 연결 성공: 192.168.0.23:3306/dataset","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"장비 ID: FoolProof_02, 호기: 2","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 데이터베이스 테이블 구조를 확인하고 필요시 생성합니다...","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=== 테이블 구조 확인 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 ar1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 ar2 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 br1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 br2 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 cr1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 cr2 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 dr1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 dr2 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 er1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 control1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 controll1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 controll2 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 count1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 log1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 param1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"타겟 DB에 result1 테이블이 이미 존재합니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=== 테이블 구조 확인 완료 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"기존 테이블: 16개, 새로 생성: 0개, 실패: 0개","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"실시간 동기화 대상: dr1, er1, result1","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"실시간 동기화 시작: 1000ms 주기","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=========================================","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"실시간 동기화가 실행 중입니다.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"종료하려면 Ctrl+C를 누르세요.","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"=========================================","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:17"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:18"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.65초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:18"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:18"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:18"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:18"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:19"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.77초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:19"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:19"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:19"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:19"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:20"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.49초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:20"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:20"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:20"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:20"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:21"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.62초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:21"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:21"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:21"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:21"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:22"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.60초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:22"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:22"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:22"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:22"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:23"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.50초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:23"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:23"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:23"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:23"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:24"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.53초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:24"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:24"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:24"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:24"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:25"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.76초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:25"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:25"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:25"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:25"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:26"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.54초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:26"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:26"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:26"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:26"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:27"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.54초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:27"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:27"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:27"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:27"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:28"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.56초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:28"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:28"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:28"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:28"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:29"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.52초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:29"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:29"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:29"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:29"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:30"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.56초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:30"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:30"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:30"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:30"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:31"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.54초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:31"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:31"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:31"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:31"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:32"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.53초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:32"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:32"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:32"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:32"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:33"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.52초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:33"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:33"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:33"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:33"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:34"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.53초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:34"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:34"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:34"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:34"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:35"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.50초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:35"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:35"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:35"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:35"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:36"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.35초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:36"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:36"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:36"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:36"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:37"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.41초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:37"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:37"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:37"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:37"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:38"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.32초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:38"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:38"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:38"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:38"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:39"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.37초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:39"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:39"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:39"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:39"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:40"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.33초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:40"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:40"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:40"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:40"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:41"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.42초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:41"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:41"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:41"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:41"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:42"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.43초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:42"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:42"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:42"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:42"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:43"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.40초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:43"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:43"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:43"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:43"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:44"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.35초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:44"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:44"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:44"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:44"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:45"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.39초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:45"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:45"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:45"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:45"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:46"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.35초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:46"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:46"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:46"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:46"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:47"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.35초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:47"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:47"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:47"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:47"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:48"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.38초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:48"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:48"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:48"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:49"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:49"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.37초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:49"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:49"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:49"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:50"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:50"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.40초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:50"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:50"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:51"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:51"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:51"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.43초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:51"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:51"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:52"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:52"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:52"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.33초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:52"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:52"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:53"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:53"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:53"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.43초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:53"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:53"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:54"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:54"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:54"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.33초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:54"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:54"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:55"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:55"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:55"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.35초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:55"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:55"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:56"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:56"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:56"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.33초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:56"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:57"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:57"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:57"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:57"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.32초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:57"}
+{"level":"info","message":"=== 데이터베이스 동기화 시작 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}
+{"level":"info","message":"dr1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}
+{"level":"info","message":"er1 테이블 동기화 완료: 1개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}
+{"level":"info","message":"result1 테이블 동기화 완료: 100개 행","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}
+{"level":"info","message":"=== 동기화 완료: 3/3 테이블 성공, 102개 행 동기화, 소요시간: 0.33초 ===","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}
+{"level":"info","message":"\n프로그램 종료 중...","service":"db-sync-service","timestamp":"2026-03-24 17:50:58"}

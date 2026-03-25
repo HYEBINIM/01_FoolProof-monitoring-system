@@ -12,7 +12,6 @@
   },
   "pkg": {
     "assets": [
-      ".env.example",
       "node_modules/mysql2/**/*"
     ],
     "outputPath": "dist"
